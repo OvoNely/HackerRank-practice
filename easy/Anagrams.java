@@ -20,8 +20,8 @@ public class Anagrams {
 	static boolean isAnagram(String a, String b) {
 		
 		// covert strings to char arrays
-		char[] arrA = a.toCharArray();
-		char [] arrB = b.toCharArray();
+		char[] arrA = a.toLowerCase().toCharArray();
+		char [] arrB = b.toLowerCase().toCharArray();
 		
 		// sorting arrays
 		sort(arrA);
